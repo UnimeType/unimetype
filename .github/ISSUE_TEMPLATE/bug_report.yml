@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a crash, conversion bug, shortcut issue, or installer problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - Linux (Wayland)
+        - Linux (X11)
+        - iOS / iPadOS
+        - Android
+        - ChromeOS
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: UnimeType Version & OS Version
+      placeholder: "e.g. UnimeType macOS 1.1.2 (39) on macOS 15.4"
+    validations:
+      required: true
+  - type: dropdown
+    id: model_mode
+    attributes:
+      label: Conversion Engine
+      options:
+        - UnimeType AI (Cloud Default)
+        - Local Offline Model (LM Studio / Ollama / mlx-lm / llama.cpp)
+        - Custom OpenAI-Compatible API Key
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: What did you type, in which app, and what key/button did you press?
+      placeholder: |
+        1. Open Slack / VS Code / WeChat
+        2. Type `...`
+        3. Press Caps Lock to Convert
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Result
+      placeholder: |
+        Expected: ...
+        Actual: ...
+    validations:
+      required: true

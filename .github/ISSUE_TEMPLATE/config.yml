@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Latest Signed Releases
+    url: https://unimetype.com/download
+    about: Get the latest macOS, Windows, Linux, iOS, Android, and ChromeOS builds.
+  - name: Documentation & Setup Guides
+    url: https://unimetype.com/docs
+    about: Read platform setup instructions, shortcut configuration, and offline model guides.
+  - name: Local Offline Model Toolkit (UnimeType/transliteration)
+    url: https://github.com/UnimeType/transliteration
+    about: Issues or PRs specifically for the open-source Python CLI, Ollama Modelfiles, and Short-v3 protocol.
+  - name: Private Security Vulnerability Report
+    url: mailto:security@unimetype.com
+    about: Report security issues privately instead of opening a public ticket.

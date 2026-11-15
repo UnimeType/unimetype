@@ -1,0 +1,25 @@
+name: Feature or Language Request
+description: Suggest a workflow improvement, shortcut option, or phonetic input scheme
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: languages
+    attributes:
+      label: Your Everyday Language Pair
+      placeholder: "e.g. Chinese + English, Japanese + English, German + English"
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Workflow Friction
+      description: Which real typing or cross-app switching moment are you trying to make smoother?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Behavior
+    validations:
+      required: true

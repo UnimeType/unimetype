@@ -1,0 +1,40 @@
+name: App / Editor / Game Compatibility
+description: Report text replacement, cursor offset, or shortcut issues in a specific host app or web editor
+title: "[Compatibility]: "
+labels: ["compatibility"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - Linux (Wayland)
+        - Linux (X11)
+        - iOS / iPadOS
+        - Android
+        - ChromeOS
+    validations:
+      required: true
+  - type: input
+    id: host_app
+    attributes:
+      label: Host Application / Website / Game
+      placeholder: "e.g. Figma Desktop, Overleaf in Chrome, Lark, Blender 4.3, Terminal"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: UnimeType Version
+      placeholder: "e.g. macOS 1.1.2 / Windows 0.2.2 / Linux 0.2.2"
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What Happened?
+      description: Describe whether replacement did nothing, duplicated characters, moved the cursor, or intercepted a shortcut.
+    validations:
+      required: true
