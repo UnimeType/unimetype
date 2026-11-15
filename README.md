@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://unimetype.com">
-    <img src="https://raw.githubusercontent.com/UnimeType/transliteration/main/assets/hero-editorial.png" alt="UnimeType — One keyboard for all your languages, zero keyboard switching across apps or mid-sentence" width="100%" />
+    <img src="./assets/hero-unimetype.png" alt="UnimeType — Switch languages without switching keyboards" width="100%" />
   </a>
 </p>
 

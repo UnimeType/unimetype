@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://unimetype.com/zh">
-    <img src="https://raw.githubusercontent.com/UnimeType/transliteration/main/assets/hero-editorial.png" alt="UnimeType — 一个键盘输入多种语言，跨应用切换与日常打字再也不用切换键盘" width="100%" />
+    <img src="./assets/hero-unimetype.png" alt="UnimeType — 一个键盘输入多种语言，跨应用切换与日常打字再也不用切换键盘" width="100%" />
   </a>
 </p>
 
