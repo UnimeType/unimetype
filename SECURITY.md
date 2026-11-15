@@ -4,7 +4,7 @@
 
 - **No background keystroke logging**: UnimeType never transmits raw keystrokes while you type normally. Text is processed only when you explicitly invoke an action (**Convert**, **Polish**, or **Explain**).
 - **100% offline local option**: Desktop clients (`macOS`, `Windows`, `Linux`) can connect directly to loopback inference servers (`127.0.0.1`) powered by open-weight [`UnimeType/Transliteration-2.0`](https://huggingface.co/UnimeType) models (`LM Studio`, `Ollama`, `mlx-lm`, or `llama.cpp`) with zero external network traffic.
-- **Signed release artifacts**: Always download installers from [`unimetype.com/download`](https://unimetype.com/download), official app stores, or verified releases in [`UnimeType/unimetype/releases`](https://github.com/UnimeType/unimetype/releases).
+- **Signed release artifacts**: Always download installers from [`unimetype.com/download`](https://unimetype.com/download) or official app stores.
 
 ## Reporting a Vulnerability
 

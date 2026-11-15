@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>一个键盘输入多种语言——跨应用切窗口与句内双语混打，再也不用切换键盘。</strong><br/>
-  UnimeType 官方版本发布说明、安装包校验值、包管理器渠道与公开问题反馈仓库（覆盖 macOS、Windows、Linux、iOS、Android 与 ChromeOS）。
+  UnimeType 官方社区门户、包管理器安装指南与公开问题反馈仓库（覆盖 macOS、Windows、Linux、iOS、Android 与 ChromeOS）。
 </p>
 
 <p align="center">
@@ -42,12 +42,12 @@ UnimeType 把「打字」和「转换」彻底拆开：键盘全程留在干净�
 
 | 平台 | 官方下载 / 应用商店 | 命令行包管理器 / 渠道 |
 | --- | --- | --- |
-| **macOS**（`14.0+`，Apple Silicon & Intel） | [下载通用 `.dmg`](https://unimetype.com/zh/download#macos) · [Releases](https://github.com/UnimeType/unimetype/releases) | `brew install --cask losdwind/tap/unimetype` |
-| **Windows**（`10 / 11`，`x64` & `ARM64`） | [下载签名安装包 `.exe`](https://unimetype.com/zh/download#windows) · [Releases](https://github.com/UnimeType/unimetype/releases) | `winget install UnimeType.UnimeType` |
-| **Linux**（`X11` & `Wayland`） | [下载 `.deb` / `.rpm`](https://unimetype.com/zh/download#linux) · [Releases](https://github.com/UnimeType/unimetype/releases) | Arch AUR：`yay -S unimetype-bin` |
+| **macOS**（`14.0+`，Apple Silicon & Intel） | [下载通用 `.dmg`](https://unimetype.com/zh/download#macos) | `brew install --cask losdwind/tap/unimetype` |
+| **Windows**（`10 / 11`，`x64` & `ARM64`） | [下载签名安装包 `.exe`](https://unimetype.com/zh/download#windows) | `winget install UnimeType.UnimeType` |
+| **Linux**（`X11` & `Wayland`） | [下载 `.deb` / `.rpm`](https://unimetype.com/zh/download#linux) | Arch AUR：`yay -S unimetype-bin` |
 | **iOS & iPadOS**（`17.0+`） | [前往 App Store 下载](https://apps.apple.com/app/id6478013435) | App Store 自动更新 |
 | **Android**（`9.0+`） | [Google Play](https://play.google.com/store/apps/details?id=com.figurich.unimetype.android) · [签名 `.apk`](https://unimetype.com/zh/download#android) | Play 商店 / 官网签名 APK |
-| **ChromeOS**（`ChromeOS` & `Crostini`） | [下载扩展包 `.zip`](https://unimetype.com/zh/download#chromeos) · [Releases](https://github.com/UnimeType/unimetype/releases) | ChromeOS 输入法扩展 |
+| **ChromeOS**（`ChromeOS` & `Crostini`） | [下载扩展包 `.zip`](https://unimetype.com/zh/download#chromeos) | Chrome 网上应用店 / `.zip` |
 
 ---
 
@@ -66,7 +66,7 @@ UnimeType 把「打字」和「转换」彻底拆开：键盘全程留在干净�
 
 ## 提交 Bug 与宿主软件兼容性反馈
 
-本仓库承担 UnimeType 客户端公开版本台账与 Issue 跟踪职责：
+本仓库承担 UnimeType 客户端公开问题反馈与兼容性跟踪职责：
 
 - **[提交 Bug 反馈](https://github.com/UnimeType/unimetype/issues/new?template=bug_report.yml)** — 闪退、界面异常、转写错误或安装包问题。
 - **[提交宿主软件 / 编辑器 / 游戏兼容性问题](https://github.com/UnimeType/unimetype/issues/new?template=app_compatibility.yml)** — 在特定桌面应用、富文本网页编辑器、终端或游戏里遇到原地替换失败、光标偏移或快捷键冲突时直接反馈。

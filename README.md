@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>One keyboard for all your languages — no switching keyboards across apps or mid-sentence.</strong><br/>
-  Official release notes, binary checksums, package manager channels, and public issue tracker for UnimeType across macOS, Windows, Linux, iOS, Android, and ChromeOS.
+  Official community portal, package manager reference, and public issue tracker for UnimeType across macOS, Windows, Linux, iOS, Android, and ChromeOS.
 </p>
 
 <p align="center">
@@ -42,12 +42,12 @@ Always verify or download the latest signed installers from **[unimetype.com/dow
 
 | Platform | Direct Download / Store | Package Manager / Channel |
 | --- | --- | --- |
-| **macOS** (`14.0+`, Apple Silicon & Intel) | [Download Universal `.dmg`](https://unimetype.com/download#macos) · [Releases](https://github.com/UnimeType/unimetype/releases) | `brew install --cask losdwind/tap/unimetype` |
-| **Windows** (`10 / 11`, `x64` & `ARM64`) | [Download Signed `.exe`](https://unimetype.com/download#windows) · [Releases](https://github.com/UnimeType/unimetype/releases) | `winget install UnimeType.UnimeType` |
-| **Linux** (`X11` & `Wayland`) | [Download `.deb` / `.rpm`](https://unimetype.com/download#linux) · [Releases](https://github.com/UnimeType/unimetype/releases) | Arch AUR: `yay -S unimetype-bin` |
+| **macOS** (`14.0+`, Apple Silicon & Intel) | [Download Universal `.dmg`](https://unimetype.com/download#macos) | `brew install --cask losdwind/tap/unimetype` |
+| **Windows** (`10 / 11`, `x64` & `ARM64`) | [Download Signed `.exe`](https://unimetype.com/download#windows) | `winget install UnimeType.UnimeType` |
+| **Linux** (`X11` & `Wayland`) | [Download `.deb` / `.rpm`](https://unimetype.com/download#linux) | Arch AUR: `yay -S unimetype-bin` |
 | **iOS & iPadOS** (`17.0+`) | [Download on the App Store](https://apps.apple.com/app/id6478013435) | App Store auto-update |
 | **Android** (`9.0+`) | [Google Play](https://play.google.com/store/apps/details?id=com.figurich.unimetype.android) · [Signed `.apk`](https://unimetype.com/download#android) | Play Store / Direct signed APK |
-| **ChromeOS** (`ChromeOS` & `Crostini`) | [Download IME Extension `.zip`](https://unimetype.com/download#chromeos) · [Releases](https://github.com/UnimeType/unimetype/releases) | Unpacked ChromeOS IME extension |
+| **ChromeOS** (`ChromeOS` & `Crostini`) | [Download IME Extension `.zip`](https://unimetype.com/download#chromeos) | Chrome Web Store / `.zip` |
 
 ---
 
@@ -68,7 +68,7 @@ Supported transliteration languages in `v2.6`: **Chinese Pinyin**, **Japanese Ro
 
 ## Issue Tracker & Host Compatibility Reports
 
-This repository serves as the public issue tracker and release ledger for UnimeType clients:
+This repository serves as the public issue tracker for UnimeType clients:
 
 - **[Bug Report](https://github.com/UnimeType/unimetype/issues/new?template=bug_report.yml)** — Crashes, UI glitches, conversion errors, or installer issues.
 - **[App / Editor / Game Compatibility Report](https://github.com/UnimeType/unimetype/issues/new?template=app_compatibility.yml)** — Report any desktop app, web editor, terminal, or game where in-place selection replacement, cursor positioning, or shortcut passthrough misbehaves.
