@@ -45,8 +45,8 @@ UnimeType 把「打字」和「转换」彻底拆开：键盘全程留在干净�
 | **macOS**（`14.0+`，Apple Silicon & Intel） | [下载通用 `.dmg`](https://unimetype.com/zh/download#macos) · [Releases](https://github.com/UnimeType/unimetype/releases) | `brew install --cask losdwind/tap/unimetype` |
 | **Windows**（`10 / 11`，`x64` & `ARM64`） | [下载签名安装包 `.exe`](https://unimetype.com/zh/download#windows) · [Releases](https://github.com/UnimeType/unimetype/releases) | `winget install UnimeType.UnimeType` |
 | **Linux**（`X11` & `Wayland`） | [下载 `.deb` / `.rpm`](https://unimetype.com/zh/download#linux) · [Releases](https://github.com/UnimeType/unimetype/releases) | Arch AUR：`yay -S unimetype-bin` |
-| **iOS & iPadOS**（`17.0+`） | [前往 App Store 下载](https://apps.apple.com/app/unimetype/id6760861533) | App Store 自动更新 |
-| **Android**（`9.0+`） | [Google Play](https://play.google.com/store/apps/details?id=com.unimetype.android) · [签名 `.apk`](https://unimetype.com/zh/download#android) | Play 商店 / 官网签名 APK |
+| **iOS & iPadOS**（`17.0+`） | [前往 App Store 下载](https://apps.apple.com/app/id6478013435) | App Store 自动更新 |
+| **Android**（`9.0+`） | [Google Play](https://play.google.com/store/apps/details?id=com.figurich.unimetype.android) · [签名 `.apk`](https://unimetype.com/zh/download#android) | Play 商店 / 官网签名 APK |
 | **ChromeOS**（`ChromeOS` & `Crostini`） | [下载扩展包 `.zip`](https://unimetype.com/zh/download#chromeos) · [Releases](https://github.com/UnimeType/unimetype/releases) | ChromeOS 输入法扩展 |
 
 ---

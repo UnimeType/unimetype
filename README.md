@@ -45,8 +45,8 @@ Always verify or download the latest signed installers from **[unimetype.com/dow
 | **macOS** (`14.0+`, Apple Silicon & Intel) | [Download Universal `.dmg`](https://unimetype.com/download#macos) · [Releases](https://github.com/UnimeType/unimetype/releases) | `brew install --cask losdwind/tap/unimetype` |
 | **Windows** (`10 / 11`, `x64` & `ARM64`) | [Download Signed `.exe`](https://unimetype.com/download#windows) · [Releases](https://github.com/UnimeType/unimetype/releases) | `winget install UnimeType.UnimeType` |
 | **Linux** (`X11` & `Wayland`) | [Download `.deb` / `.rpm`](https://unimetype.com/download#linux) · [Releases](https://github.com/UnimeType/unimetype/releases) | Arch AUR: `yay -S unimetype-bin` |
-| **iOS & iPadOS** (`17.0+`) | [Download on the App Store](https://apps.apple.com/app/unimetype/id6760861533) | App Store auto-update |
-| **Android** (`9.0+`) | [Google Play](https://play.google.com/store/apps/details?id=com.unimetype.android) · [Signed `.apk`](https://unimetype.com/download#android) | Play Store / Direct signed APK |
+| **iOS & iPadOS** (`17.0+`) | [Download on the App Store](https://apps.apple.com/app/id6478013435) | App Store auto-update |
+| **Android** (`9.0+`) | [Google Play](https://play.google.com/store/apps/details?id=com.figurich.unimetype.android) · [Signed `.apk`](https://unimetype.com/download#android) | Play Store / Direct signed APK |
 | **ChromeOS** (`ChromeOS` & `Crostini`) | [Download IME Extension `.zip`](https://unimetype.com/download#chromeos) · [Releases](https://github.com/UnimeType/unimetype/releases) | Unpacked ChromeOS IME extension |
 
 ---
